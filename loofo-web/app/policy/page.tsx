@@ -2,7 +2,7 @@ import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 
-const EFFECTIVE_DATE = "2024-06-01";
+const EFFECTIVE_DATE = "2025-05-21";
 const CONTACT_EMAIL = "privacy@loofo.com";
 
 const PolicyPage = () => (
