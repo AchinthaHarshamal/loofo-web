@@ -6,7 +6,7 @@ export default function CareersPage() {
     <main className="mx-auto max-w-6xl px-6 py-12">
       <header className="mb-8">
         <h1 className="text-3xl md:text-4xl font-bold">Careers at Loofo Lab</h1>
-        <p className="mt-2 text-muted-foreground max-w-2xl">We offer hands‑on, practice‑driven internships—build real features with us and gain industry experience across mobile, backend, web, and cloud.</p>
+        <p className="mt-2 text-gray-800 max-w-2xl">We offer hands‑on, practice‑driven internships—build real features with us and gain industry experience across mobile, backend, web, and cloud.</p>
         <div className="mt-4">
           <a href="/" className="inline-block px-5 py-2 rounded-full bg-purple-600 text-white text-sm font-semibold shadow hover:bg-purple-700 transition">Go to Home</a>
         </div>
@@ -19,7 +19,7 @@ export default function CareersPage() {
             <CardDescription>Gain real industry experience across mobile, backend, web, and cloud</CardDescription>
           </CardHeader>
           <Separator />
-          <CardContent className="pt-4 text-sm text-muted-foreground">
+          <CardContent className="pt-4 text-sm text-gray-800">
             <p>
               Contribute across the stack as we build our main mobile app. We welcome interns who have foundational knowledge in the following areas (not separately, but general exposure across them):
             </p>
@@ -34,7 +34,7 @@ export default function CareersPage() {
             <Separator className="my-6" />
 
             <h3 className="font-semibold text-foreground mb-2">What you’ll gain</h3>
-            <ul className="list-disc pl-5 space-y-1">
+            <ul className="list-disc pl-5 space-y-1 text-gray-800">
               <li>Agile (Scrum/Kanban): planning, stand‑ups, retrospectives</li>
               <li>Team collaboration: Git branching, pull requests, code reviews</li>
               <li>CI/CD pipelines: automated builds, tests, deployments</li>
@@ -47,7 +47,7 @@ export default function CareersPage() {
             <Separator className="my-6" />
 
             <h3 className="font-semibold text-foreground mb-2">Internship details</h3>
-            <ul className="text-foreground/90 space-y-1 text-sm">
+            <ul className="space-y-1 text-sm text-gray-900">
               <li><span className="font-medium">Working hours:</span> Flexible 8 hours (encouraged to collaborate with the team)</li>
               <li><span className="font-medium">Compensation:</span> No stipend; internet bill provided</li>
               <li><span className="font-medium">Working mode:</span> Online</li>

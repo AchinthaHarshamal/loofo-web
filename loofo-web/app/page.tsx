@@ -19,7 +19,7 @@ export default function Home() {
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900">
               Loofo Lab
             </h1>
-            <p className="mt-4 max-w-2xl text-base md:text-lg text-gray-700">
+            <p className="mt-4 max-w-2xl text-base md:text-lg text-gray-800">
               A software studio building delightful mobile apps and providing reliable IT services
               for startups and enterprises.
             </p>
@@ -43,7 +43,7 @@ export default function Home() {
               <CardTitle className="text-xl">Mobile App Development</CardTitle>
               <CardDescription>iOS, Android, and cross‑platform with modern stacks.</CardDescription>
             </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">
+            <CardContent className="text-sm text-gray-800">
               <p>We design, build, and ship production‑ready apps with great UX, performance, and maintainability.</p>
               <ul className="mt-3 list-disc pl-5 space-y-1">
                 <li>Native and cross‑platform implementations with strong UI consistency</li>
@@ -57,7 +57,7 @@ export default function Home() {
               <CardTitle className="text-xl">IT Services & Consulting</CardTitle>
               <CardDescription>Cloud, DevOps, APIs, data and integrations.</CardDescription>
             </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">
+            <CardContent className="text-sm text-gray-800">
               <p>From architecture to operations, we help you plan, implement, and scale reliably.</p>
               <ul className="mt-3 list-disc pl-5 space-y-1">
                 <li>Cloud architecture, containerization, and infrastructure as code</li>
@@ -71,7 +71,7 @@ export default function Home() {
               <CardTitle className="text-xl">Product Partnership</CardTitle>
               <CardDescription>From idea to launch, iterating with users.</CardDescription>
             </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">
+            <CardContent className="text-sm text-gray-800">
               <p>We partner as your product team to validate, prototype, and deliver measurable outcomes.</p>
               <ul className="mt-3 list-disc pl-5 space-y-1">
                 <li>Discovery workshops, user journeys, and clear problem framing</li>
@@ -93,39 +93,39 @@ export default function Home() {
           <CardContent>
             <div className="space-y-8">
               <div>
-                <div className="text-sm text-muted-foreground mb-2">Mobile app phase</div>
+                <div className="text-sm text-gray-700 mb-2">Mobile app phase</div>
                 <div className="flex flex-wrap gap-2">
-                  <span className="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-medium">Private alpha</span>
-                  <span className="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-medium">iOS & Android builds</span>
-                  <span className="px-3 py-1 rounded-full bg-purple-50 text-purple-700 text-xs font-medium">Onboarding flows</span>
+                  <span className="px-3 py-1 rounded-full bg-purple-600 text-white text-xs font-semibold">Private alpha</span>
+                  <span className="px-3 py-1 rounded-full bg-purple-600 text-white text-xs font-semibold">iOS & Android builds</span>
+                  <span className="px-3 py-1 rounded-full bg-purple-600 text-white text-xs font-semibold">Onboarding flows</span>
                 </div>
               </div>
 
               <div>
-                <div className="text-sm text-muted-foreground mb-2">Mobile app roadmap</div>
+                <div className="text-sm text-gray-700 mb-2">Mobile app roadmap</div>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
                   <li className="rounded-lg border p-3 flex items-start justify-between">
                     <span className="pr-3">App foundation & design system</span>
-                    <span className="px-2 py-0.5 rounded bg-green-50 text-green-700 text-xs font-medium">Completed</span>
+                    <span className="px-2 py-0.5 rounded bg-green-600 text-white text-xs font-semibold">Completed</span>
                   </li>
                   <li className="rounded-lg border p-3 flex items-start justify-between">
                     <span className="pr-3">Campaign composer (create, schedule, preview)</span>
-                    <span className="px-2 py-0.5 rounded bg-yellow-50 text-yellow-700 text-xs font-medium">In progress</span>
+                    <span className="px-2 py-0.5 rounded bg-yellow-500 text-white text-xs font-semibold">In progress</span>
                   </li>
                   <li className="rounded-lg border p-3 flex items-start justify-between">
                     <span className="pr-3">Audience & targeting tools</span>
-                    <span className="px-2 py-0.5 rounded bg-yellow-50 text-yellow-700 text-xs font-medium">In progress</span>
+                    <span className="px-2 py-0.5 rounded bg-yellow-500 text-white text-xs font-semibold">In progress</span>
                   </li>
                   <li className="rounded-lg border p-3 flex items-start justify-between">
                     <span className="pr-3">Beta distribution (TestFlight / Play Internal)</span>
-                    <span className="px-2 py-0.5 rounded bg-blue-50 text-blue-700 text-xs font-medium">Next</span>
+                    <span className="px-2 py-0.5 rounded bg-blue-600 text-white text-xs font-semibold">Next</span>
                   </li>
                 </ul>
               </div>
 
               <div>
                 <div className="text-sm text-muted-foreground mb-2">What to expect</div>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-gray-800">
                   Our main mobile app is a future‑marketing tool for everyone—create campaigns, reach audiences,
                   and learn what works with simple, privacy‑minded analytics. Join the mobile beta to help shape it.
                 </p>
@@ -184,7 +184,7 @@ export default function Home() {
               <CardTitle className="text-2xl">Contact us</CardTitle>
               <CardDescription>We usually reply within one business day.</CardDescription>
             </CardHeader>
-            <CardContent className="space-y-3 text-sm text-muted-foreground">
+            <CardContent className="space-y-3 text-sm text-gray-800">
               <p><span className="font-medium text-foreground">Email:</span> <a className="text-purple-700 hover:underline" href="mailto:contact@loofolab.com">contact@loofolab.com</a></p>
               <p><span className="font-medium text-foreground">Phone:</span> <a className="text-purple-700 hover:underline" href="tel:+11234567890">+1 (123) 456‑7890</a></p>
               <p><span className="font-medium text-foreground">LinkedIn:</span> <a className="text-purple-700 hover:underline" href="https://www.linkedin.com/company/loofolab" target="_blank" rel="noopener noreferrer">Loofo Lab</a></p>
