@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import Image from "next/image";
 
 export default function Home() {
   const logoSrc = "/logo.png";
@@ -10,11 +11,11 @@ export default function Home() {
       {/* Hero / Banner */}
       <section className="relative overflow-hidden">
         <div className="absolute inset-0">
-          <img src={bannerSrc} alt="Loofo Lab banner" className="h-full w-full object-cover opacity-20" />
+          <Image src={bannerSrc} alt="Loofo Lab banner" fill className="object-cover opacity-20" />
         </div>
         <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
           <div className="flex flex-col items-center text-center">
-            <img src={logoSrc} alt="Loofo Lab" className="h-20 w-20 md:h-24 md:w-24 object-contain mb-6" />
+            <Image src={logoSrc} alt="Loofo Lab" width={96} height={96} className="h-20 w-20 md:h-24 md:w-24 object-contain mb-6" />
             <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-gray-900">
               Loofo Lab
             </h1>

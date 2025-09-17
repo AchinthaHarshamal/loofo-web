@@ -74,7 +74,7 @@ export default function CareersPage() {
           <Separator />
           <CardContent className="pt-4 text-sm">
             <p>
-              Send your resume or profile links to <a className="text-purple-700 underline" href="mailto:careers@loofolab.com">careers@loofolab.com</a> with "Software Engineering Internship" in the subject.
+              Send your resume or profile links to <a className="text-purple-700 underline" href="mailto:careers@loofolab.com">careers@loofolab.com</a> with &quot;Software Engineering Internship&quot; in the subject.
             </p>
           </CardContent>
         </Card>
