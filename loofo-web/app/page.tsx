@@ -178,7 +178,7 @@ export default function Home() {
             <CardContent className="space-y-3 text-sm text-gray-800">
               <p><span className="font-medium text-foreground">Email:</span> <a className="text-purple-700 hover:underline" href="mailto:contact@loofolabs.com">contactus@loofolab.com</a></p>
               <p><span className="font-medium text-foreground">Phone:</span> <a className="text-purple-700 hover:underline" href="tel:+94763637144">+94 (76) 363-7144</a></p>
-              <p><span className="font-medium text-foreground">LinkedIn:</span> <a className="text-purple-700 hover:underline" href="https://www.linkedin.com/company/loofo-labs/?viewAsMember=true" target="_blank" rel="noopener noreferrer">Loofo Lab</a></p>
+              <p><span className="font-medium text-foreground">LinkedIn:</span> <a className="text-purple-700 hover:underline" href="https://www.linkedin.com/company/loofo-labs/?viewAsMember=true" target="_blank" rel="noopener noreferrer">Loofo Labs</a></p>
               <p><span className="font-medium text-foreground">Location:</span> Remote‑first</p>
             </CardContent>
           </Card>
