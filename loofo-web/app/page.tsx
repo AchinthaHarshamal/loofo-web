@@ -143,7 +143,7 @@ export default function Home() {
       }
       <section className="mx-auto max-w-6xl px-6 pb-12 md:pb-16" id="owners">
         <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Founders</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <Card>
             <CardHeader>
               <CardTitle className="text-lg">Chamuditha Kapugama</CardTitle>
@@ -151,15 +151,6 @@ export default function Home() {
             </CardHeader>
             <CardContent className="text-sm text-muted-foreground">
               Focused on product strategy, user experience, and business outcomes.
-            </CardContent>
-          </Card>
-          <Card>
-            <CardHeader>
-              <CardTitle className="text-lg">Achintha Harshamal</CardTitle>
-              <CardDescription>CTO</CardDescription>
-            </CardHeader>
-            <CardContent className="text-sm text-muted-foreground">
-              Leads engineering, platform architecture, and technical excellence.
             </CardContent>
           </Card>
           <Card>
@@ -185,9 +176,9 @@ export default function Home() {
               <CardDescription>We usually reply within one business day.</CardDescription>
             </CardHeader>
             <CardContent className="space-y-3 text-sm text-gray-800">
-              <p><span className="font-medium text-foreground">Email:</span> <a className="text-purple-700 hover:underline" href="mailto:contact@loofolab.com">contact@loofolab.com</a></p>
-              <p><span className="font-medium text-foreground">Phone:</span> <a className="text-purple-700 hover:underline" href="tel:+11234567890">+1 (123) 456‑7890</a></p>
-              <p><span className="font-medium text-foreground">LinkedIn:</span> <a className="text-purple-700 hover:underline" href="https://www.linkedin.com/company/loofolab" target="_blank" rel="noopener noreferrer">Loofo Lab</a></p>
+              <p><span className="font-medium text-foreground">Email:</span> <a className="text-purple-700 hover:underline" href="mailto:contact@loofolabs.com">contactus@loofolab.com</a></p>
+              <p><span className="font-medium text-foreground">Phone:</span> <a className="text-purple-700 hover:underline" href="tel:+94763637144">+94 (76) 363-7144</a></p>
+              <p><span className="font-medium text-foreground">LinkedIn:</span> <a className="text-purple-700 hover:underline" href="https://www.linkedin.com/company/loofo-labs/?viewAsMember=true" target="_blank" rel="noopener noreferrer">Loofo Lab</a></p>
               <p><span className="font-medium text-foreground">Location:</span> Remote‑first</p>
             </CardContent>
           </Card>

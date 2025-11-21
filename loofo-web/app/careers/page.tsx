@@ -55,7 +55,7 @@ export default function CareersPage() {
 
             <div className="mt-6">
               <a
-                href="mailto:careers@loofolab.com?subject=Software%20Engineering%20Internship%20Application"
+                href="mailto:careers@loofolabs.com?subject=Software%20Engineering%20Internship%20Application"
                 className="inline-block px-6 py-3 rounded-full bg-purple-600 text-white font-semibold shadow hover:bg-purple-700 transition"
               >
                 Apply now
@@ -74,7 +74,7 @@ export default function CareersPage() {
           <Separator />
           <CardContent className="pt-4 text-sm">
             <p>
-              Send your resume or profile links to <a className="text-purple-700 underline" href="mailto:careers@loofolab.com">careers@loofolab.com</a> with &quot;Software Engineering Internship&quot; in the subject.
+              Send your resume or profile links to <a className="text-purple-700 underline" href="mailto:careers@loofolabs.com">careers@loofolabs.com</a> with &quot;Software Engineering Internship&quot; in the subject.
             </p>
           </CardContent>
         </Card>
