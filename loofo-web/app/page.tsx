@@ -1,5 +1,4 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Separator } from "@/components/ui/separator";
 import { Navigation } from "@/components/navigation";
 import { Footer } from "@/components/footer";
 import Image from "next/image";
@@ -106,7 +105,7 @@ export default function Home() {
         <Card className="shadow-lg border-gray-200/80">
           <CardHeader>
             <CardTitle className="text-2xl md:text-3xl font-bold text-gray-900">Status & insights</CardTitle>
-            <CardDescription className="text-gray-600 text-base">Where we are now and what's next.</CardDescription>
+            <CardDescription className="text-gray-600 text-base">Where we are now and what&apos;s next.</CardDescription>
           </CardHeader>
           <CardContent>
             <div className="space-y-8">
