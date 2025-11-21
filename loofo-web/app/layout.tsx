@@ -14,8 +14,8 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Loofo Lab — Mobile Apps & IT Services",
-  description: "Loofo Lab builds delightful mobile apps and provides reliable IT services.",
+  title: "Loofo Labs — Mobile Apps & IT Services",
+  description: "Loofo Labs builds delightful mobile apps and provides reliable IT services.",
 };
 
 export default function RootLayout({

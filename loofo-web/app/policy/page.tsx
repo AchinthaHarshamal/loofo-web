@@ -1,24 +1,28 @@
 import React from "react";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
+import { Navigation } from "@/components/navigation";
+import { Footer } from "@/components/footer";
 
 const EFFECTIVE_DATE = "2025-05-21";
 const CONTACT_EMAIL = "privacy@loofo.com";
 
 const PolicyPage = () => (
-  <main className="max-w-3xl mx-auto py-12 px-4">
-    <Card className="mb-8">
-      <CardHeader>
-        <CardTitle className="text-3xl">Policy Documents</CardTitle>
-      </CardHeader>
-    </Card>
+  <main className="min-h-screen bg-gradient-to-b from-white via-purple-50/30 to-white">
+    <Navigation />
+    <div className="max-w-4xl mx-auto py-24 md:py-32 px-6">
+      <Card className="mb-8 shadow-lg border-gray-200/80">
+        <CardHeader>
+          <CardTitle className="text-3xl md:text-4xl font-bold text-gray-900">Policy Documents</CardTitle>
+        </CardHeader>
+      </Card>
 
-    <Card className="mb-8">
-      <CardHeader>
-        <CardTitle className="text-2xl">Privacy Policy</CardTitle>
-      </CardHeader>
-      <Separator />
-      <CardContent className="pt-4 space-y-4">
+      <Card className="mb-8 shadow-lg border-gray-200/80">
+        <CardHeader>
+          <CardTitle className="text-2xl md:text-3xl font-bold text-gray-900">Privacy Policy</CardTitle>
+        </CardHeader>
+        <Separator />
+        <CardContent className="pt-6 space-y-5 text-gray-700 leading-relaxed">
         <p><strong>Privacy Policy for Loofo</strong></p>
         <p><strong>Effective Date:</strong> {EFFECTIVE_DATE}</p>
         <p>
@@ -79,7 +83,7 @@ const PolicyPage = () => (
           <li>Opt out of non-essential data tracking</li>
         </ul>
         <p>
-          To exercise any of these rights, contact us at: <a href={`mailto:${CONTACT_EMAIL}`} className="underline">{CONTACT_EMAIL}</a>
+          To exercise any of these rights, contact us at: <a href={`mailto:${CONTACT_EMAIL}`} className="text-purple-600 hover:text-purple-700 hover:underline font-medium transition-colors">{CONTACT_EMAIL}</a>
         </p>
         <h3 className="font-semibold">7. Data Security</h3>
         <p>
@@ -93,26 +97,28 @@ const PolicyPage = () => (
         <p>
           If you have any questions or concerns about this Privacy Policy, please contact us at:
         </p>
-        <ul className="list-disc pl-6">
-          <li>Email: <a href={`mailto:${CONTACT_EMAIL}`} className="underline">{CONTACT_EMAIL}</a></li>
-        </ul>
-      </CardContent>
-    </Card>
+          <ul className="list-disc pl-6">
+            <li>Email: <a href={`mailto:${CONTACT_EMAIL}`} className="text-purple-600 hover:text-purple-700 hover:underline font-medium transition-colors">{CONTACT_EMAIL}</a></li>
+          </ul>
+        </CardContent>
+      </Card>
 
-    <Card>
-      <CardHeader>
-        <CardTitle className="text-2xl">Terms of Service</CardTitle>
-      </CardHeader>
-      <Separator />
-      <CardContent className="pt-4">
-        <p className="mb-2">
-          By using our platform, you agree to comply with our terms and conditions. Please use our services responsibly and refrain from any prohibited activities.
-        </p>
-        <p>
-          We reserve the right to update these terms at any time.
-        </p>
-      </CardContent>
-    </Card>
+      <Card className="shadow-lg border-gray-200/80">
+        <CardHeader>
+          <CardTitle className="text-2xl md:text-3xl font-bold text-gray-900">Terms of Service</CardTitle>
+        </CardHeader>
+        <Separator />
+        <CardContent className="pt-6 text-gray-700 leading-relaxed">
+          <p className="mb-4">
+            By using our platform, you agree to comply with our terms and conditions. Please use our services responsibly and refrain from any prohibited activities.
+          </p>
+          <p>
+            We reserve the right to update these terms at any time.
+          </p>
+        </CardContent>
+      </Card>
+    </div>
+    <Footer />
   </main>
 );
 
